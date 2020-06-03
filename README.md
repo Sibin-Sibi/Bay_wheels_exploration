@@ -14,7 +14,8 @@ Major questions to be answered:
 5. Is the new feature bikeshare a success?, discuss the effort needed to attarct more customers to bike share plan.  
 These questions are answered using exploratory analysis:
 
-## Data Collection
+##### Data Collection
+exploration_analysis.ipynb has the code for exploration analysis, explanoratory analysis is developed to slides using explanotary_analysis.slides.html.   
 We have 12 csv files, which are downloaded using request library, and stored in a file location, these files are joined using glob module, which retrieves file from the path. 'OS' module helps in interacting with python.
 ```
 path = r'ford_bike_data'
