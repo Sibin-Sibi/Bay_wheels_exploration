@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-### FordGo Bike Data 
-For data analysis I consider 2019 Ford Gobike data, the data had 2506983 entries. Features:
-=======
 # Bay_wheels_exploration
 Bay Wheels is a regional public bicycle sharing system in the San Francisco Bay Area, California owned by Lyft. Here we collect, clean and analyse year 2019 trip data, answer 5 major questions regarding the business growth using matplotlib and seaborn libraries to develop visualize insights
 ### Bay Wheels Bike 2019 Data
 [Bay Wheels Data](https://www.lyft.com/bikes/bay-wheels/system-data) data have 2506983 entries. 
 Features:
->>>>>>> 73b7fcb4715b446895d20e011eee627df08ad576
 The data had features like user type, which share details about the type of user, whether they are subscribed or just random customers accessing bike usage. The data also had features like type of bike access, whether by app or clipper, company also provide an offer of bike share, a plan where users gets 24/7 bike usage with annual fee of $5.
 
 Major questions to be answered:
