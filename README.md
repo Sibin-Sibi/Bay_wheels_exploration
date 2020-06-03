@@ -1,5 +1,3 @@
-# Bay_wheels_exploration
-Using matplotlib and seaborn library to analyse Bay wheels company data, and visualize insights
 ### FordGo Bike Data 
 For data analysis I consider 2019 Ford Gobike data, the data had 2506983 entries. Features:
 The data had features like user type, which share details about the type of user, whether they are subscribed or just random customers accessing bike usage. The data also had features like type of bike access, whether by app or clipper, company also provide an offer of bike share, a plan where users gets 24/7 bike usage with annual fee of $5.
@@ -21,4 +19,3 @@ From 'month bike ride usage' we could see that number of customers using the bik
 
 ##### Multivariate exploration:
 'Subscribers monthly bike rides by rental bikes', shows us subscribers prefer using application, which is good, usage of clipper is said to be low in both the type of users. 'Subscribers monthly bike rides by bike share' plot shows that most of the subscribers haven't opted for share bikes plan. So this plan needs improvement as throughout the year the users remained the same.
-
