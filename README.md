@@ -1,7 +1,8 @@
 # Bay_wheels_exploration
-Bay Wheels is a regional public bicycle sharing system in the San Francisco Bay Area, California owned by Lyft. Beginning operation in August 2013 as Bay Area Bike Share. Here we collect, clean and analyse their 2019 trip data, Answer 5 major questions regarding the business growth using matplotlib and seaborn libraries to develop visualize insights
-### Bay Wheels Bike 2019 Data 
-Bay wheels Bike data, the data had 2506983 entries. Features:
+Bay Wheels is a regional public bicycle sharing system in the San Francisco Bay Area, California owned by Lyft. Here we collect, clean and analyse year 2019 trip data, answer 5 major questions regarding the business growth using matplotlib and seaborn libraries to develop visualize insights
+### Bay Wheels Bike 2019 Data
+[Bay Wheels Data](https://www.lyft.com/bikes/bay-wheels/system-data) data have 2506983 entries. 
+Features:
 The data had features like user type, which share details about the type of user, whether they are subscribed or just random customers accessing bike usage. The data also had features like type of bike access, whether by app or clipper, company also provide an offer of bike share, a plan where users gets 24/7 bike usage with annual fee of $5.
 
 Major questions to be answered:
@@ -14,14 +15,12 @@ Major questions to be answered:
 These questions are answered using exploratory analysis:
 
 ## Data Collection
-WE have 12 csv files, which are downloaded using request library, and stored in a file location
+WE have 12 csv files, which are downloaded using request library, and stored in a file location, these 12 csv files are joined using glob module, which retrieves file from the path. 'OS' module helps in interacting with python.
 ```
 path = r'ford_bike_data'
 all_data = glob.glob(os.path.join(path, "*.csv"))
 ```
-
-
-
+After assesment, data is cleaned. and we perform various visualization using matplotlib and seaborn to anwer the questions
 
 ##### Univariate exploration:
 From 'month bike ride usage' we could see that number of customers using the bikes see an increase during march and april, so this is the time we could start campaigns to attract more customers to bike usage. This graph answers our first question about the time period during an year where campaigns to be initiated. Univariate analysis also discuss about bike rides during week in 'Bike rides during Weekdays' plot, where we could see bike usage is heavy during weekends whereas usage reduce to half during weekends
