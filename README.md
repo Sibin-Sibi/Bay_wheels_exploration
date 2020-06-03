@@ -15,7 +15,7 @@ Major questions to be answered:
 These questions are answered using exploratory analysis:
 
 ## Data Collection
-WE have 12 csv files, which are downloaded using request library, and stored in a file location, these 12 csv files are joined using glob module, which retrieves file from the path. 'OS' module helps in interacting with python.
+We have 12 csv files, which are downloaded using request library, and stored in a file location, these files are joined using glob module, which retrieves file from the path. 'OS' module helps in interacting with python.
 ```
 path = r'ford_bike_data'
 all_data = glob.glob(os.path.join(path, "*.csv"))
